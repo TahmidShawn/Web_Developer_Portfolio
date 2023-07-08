@@ -25,7 +25,7 @@ body {
 }
 
 .section_description {
-    color:#757575;
+    color: #757575;
     text-align: center;
     font-size: 18px;
 }
@@ -95,9 +95,29 @@ nav a {
     margin-bottom: 20px;
 }
 
+/* main_section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about */
 .about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+
+.about_info_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_info {
+    text-align: center;
+}
+
+.what_i_do_description {
+    padding: 30px 150px;
 }
